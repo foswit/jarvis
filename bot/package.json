@@ -1,0 +1,16 @@
+{
+  "name": "jarvis-bot",
+  "version": "1.0.0",
+  "description": "Telegram-пульт Джарвиса: записи в мозг, вопросы Claude, безопасные команды на компьютере",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "dotenv": "^18.0.3"
+  }
+}
